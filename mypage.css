@@ -1,0 +1,41 @@
+
+.headImage{
+    
+    background-image:url("images/Header1.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    height: 100vh;
+    min-height: 500px;
+    background-repeat: no-repeat; 
+}
+#aboutme{
+    background-color:azure;
+    min-height: 500px;
+}
+#profile-photo{
+    border-radius: 50%;
+}
+#projects{
+    background-color: aquamarine;
+}
+.intro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornflowerblue;
+    font-size: x-large;
+}
+.container-1{
+    align-items: center;
+}
+.card{
+    margin: 5px;
+}
+@media(max-width:600px){
+    div.container.card{
+        order: 1;
+    }
+    
+    div.container{
+        display:flex;
+        flex-direction: column;
+    }
+}
